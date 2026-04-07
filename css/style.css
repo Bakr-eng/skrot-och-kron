@@ -1,4 +1,5 @@
 body {
+  background-color: cadetblue;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,7 +12,6 @@ body {
 
 .card {
   width: 180px;
-  background-image: url('../Images/skrot-bild.jpg');
   background-size: 40em;
   border: 5px solid #ccc;
   border-radius: 8px;
@@ -44,9 +44,9 @@ body {
     font-weight: bold;
 }
 
-a{
+.mejl-nummer{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(173, 128, 173);
+    background-color: rgb(156, 121, 156);
     padding: 1em;
     margin: 0;
     text-decoration: none;

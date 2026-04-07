@@ -1,0 +1,23 @@
+body
+{
+    background-color: cadetblue;
+    
+}
+#title
+{
+    text-align: center;
+    
+}
+
+.picture
+{
+    display: block;
+     margin: 0 auto
+}
+
+.Info{
+    flex-grow: 1;
+    background-color: rgb(46, 148, 63);
+    text-align: left;
+    padding: 1em;
+}
