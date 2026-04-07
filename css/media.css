@@ -11,3 +11,13 @@ body
 div{
     background-color: blanchedalmond;
 }
+
+
+@media (max-width: 1400px)
+{
+    .videoStyle
+    {
+        width: calc(100vw - 100px);
+        text-align: center;
+    }
+}
