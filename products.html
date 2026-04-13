@@ -1,33 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <a href="index.html"> Hem</a>
-      <a href="products.html"> Vi erbjuder..</a>
-      <a href="aboutus.html"> Om oss..</a>
-      <a href="sendToUs.html"> skicka till oss.. </a>
-      <a href="media.html"> Media..</a> <br> <br><br>
-    </header>
 
-    <table border="1">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html"> Hem</a>
+    <a href="products.html"> Vi erbjuder..</a>
+    <a href="aboutus.html"> Om oss..</a>
+    <a href="sendToUs.html"> skicka till oss.. </a>
+    <a href="media.html"> Media..</a> <br> <br><br>
+  </header>
+
+  <table border="1">
+    <thead>
       <tr>
-        <th></th>
-        <th>Namn</th>
-        <th>pris med moms</th>
-        <th>pris utan moms</th>
-        <th>Hästkraft</th>
-        <th>lastVikt</th>
-        <th>Växellåda</th>
+        <th scope="col"></th>
+        <th scope="col">Namn</th>
+        <th scope="col">pris med moms</th>
+        <th scope="col">pris utan moms</th>
+        <th scope="col">Hästkraft</th>
+        <th scope="col">lastVikt</th>
+        <th scope="col">Växellåda</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <th><img src="Images/lastbil.jpg" width="200" /></th>
-        <td>LastBil</td>
+        <th scope="row"><img src="Images/lastbil.jpg" width="200" ></th>
+        <th scope="col">LastBil</th>
         <td>1 250 000</td>
         <td>1 200 000</td>
         <td>350 – 650</td>
@@ -35,8 +40,8 @@
         <td>12 – 14 växlar</td>
       </tr>
       <tr>
-        <th><img src="Images/gravskopa.jpg" width="200" /></th>
-        <th>Grävskopa</th>
+        <th scope="row"><img src="Images/gravskopa.jpg" width="200" ></th>
+        <th scope="col">Grävskopa</th>
         <td>1250 000</td>
         <td>1 000 000</td>
         <td>90 – 130</td>
@@ -44,16 +49,18 @@
         <td>Automat / Hydrostat</td>
       </tr>
       <tr>
-        <th><img src="Images/lyftkran.jpg" width="200" /></th>
-        <th>Lyftkran</th>
+        <th scope="row"><img src="Images/lyftkran.jpg" width="200" /></th>
+        <th scope="col">Lyftkran</th>
         <td>5 000 000</td>
         <td>4 000 000</td>
         <td>300 – 450</td>
         <td>12 – 14 ton</td>
         <td>Automat (12 – 14 växlar )</td>
       </tr>
-    </table>
-    <br />
-    <br />
-  </body>
+    </tbody>
+  </table>
+  <br >
+  <br >
+</body>
+
 </html>

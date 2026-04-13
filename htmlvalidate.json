@@ -1,0 +1,10 @@
+{
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "void-style": "error",
+    "no-duplicate-id": "error",
+    "no-missing-references": "error",
+    "no-inline-style": "warn",
+    "prefer-button": "warn"
+  }
+}
